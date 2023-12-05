@@ -25,7 +25,7 @@ public class YourJavaFXApp extends Application {
 
     @Override
     public void start(Stage primaryStage) {
-        primaryStage.setTitle("JavaFX Welcome");
+        primaryStage.setTitle("Bem Vindo a aplicaçao");
 
         GridPane grid = new GridPane();
         grid.setAlignment(Pos.CENTER);
