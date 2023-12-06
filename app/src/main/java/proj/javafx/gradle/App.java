@@ -31,13 +31,13 @@ public class YourJavaFXApp extends Application {
         grid.setAlignment(Pos.CENTER);
         grid.setHgap(10);
         grid.setVgap(10);
-        grid.setPadding(new Insets(25, 25, 25, 25));
+        grid.setPadding(new Insets(30, 30, 30, 30));
 
-        Scene scene = new Scene(grid, 300, 275);
+        Scene scene = new Scene(grid, 325, 300);
         primaryStage.setScene(scene);
 
         Text scenetitle = new Text("Seja bem vindo!!!");
-        scenetitle.setFont(Font.font("Tahoma", FontWeight.NORMAL, 20));
+        scenetitle.setFont(Font.font("Tahoma", FontWeight.NORMAL, 25));
         grid.add(scenetitle, 0, 0, 2, 1);
 
         Label userName = new Label("Email:");
